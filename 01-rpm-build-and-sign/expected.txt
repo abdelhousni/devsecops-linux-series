@@ -1,0 +1,25 @@
+== make test
+========================= 6 passed, 4 xfailed =========================
+== make rpm
+carcano-fancymonitor-0.0.1-1.el9.noarch.rpm
+python3-carcano-fancymonitor-0.0.1-1.el9.noarch.rpm
+python3-carcano-fancymonitor-bundle-0.0.1-1.el9.src.rpm
+== make sign
+carcano-fancymonitor-0.0.1-1.el9.noarch.rpm: digests signatures OK
+python3-carcano-fancymonitor-0.0.1-1.el9.noarch.rpm: digests signatures OK
+python3-carcano-fancymonitor-bundle-0.0.1-1.el9.src.rpm: digests signatures OK
+== dnf install
+carcano-fancymonitor-0.0.1-1.el9
+python3-carcano-fancymonitor-0.0.1-1.el9
+/etc/fancymonitor
+/etc/fancymonitor/config.json
+/etc/fancymonitor/config.xml
+/etc/fancymonitor/config.yml
+/etc/fancymonitor/logging.conf
+/etc/fancymonitor/schemas/probes.dtd
+/etc/fancymonitor/schemas/probes.xsd
+/etc/fancymonitor/xslt/config.xsl
+/usr/bin/fancymonitor
+/usr/share/doc/fancymonitor-0.0.1/README.md
+/var/log/fancymonitor
+/var/log/fancymonitor/fancymonitor.log

@@ -1,0 +1,3 @@
+# The book's material: lab/fetch.sh gets it, it's never committed
+lab/book/
+lab/*.tar.gz

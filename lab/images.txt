@@ -1,0 +1,2 @@
+# Container images the examples run. lab/check.sh reads this list.
+docker.io/library/oraclelinux:9
